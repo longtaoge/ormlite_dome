@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\longtaoge\Desktop\ormlite\ormlite-examples-master\ormlite_dome\app\libs\ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="C:\Users\longtaoge\Desktop\ormlite\ormlite-examples-master\ormlite_dome\app\build\intermediates\pre-dexed\debug\ormlite-android-4.48-45ed553dd5c67fef1f16ec876cd8d3b72302c673.jar" />
+    </item>
+    <item
+        jar="E:\Android_IDE\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\longtaoge\Desktop\ormlite\ormlite-examples-master\ormlite_dome\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-308831e3d698d233c14508fa9916b7f92439a83c.jar" />
+    </item>
+    <item
+        jar="C:\Users\longtaoge\Desktop\ormlite\ormlite-examples-master\ormlite_dome\app\libs\ormlite-core-4.48.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e579bd2905d0399af5029aaaf9817d5fa0ca88a5">
+        <dex dex="C:\Users\longtaoge\Desktop\ormlite\ormlite-examples-master\ormlite_dome\app\build\intermediates\pre-dexed\debug\ormlite-core-4.48-3549466e5260c39157ef440e74672d936bb770c8.jar" />
+    </item>
+
+</items>
