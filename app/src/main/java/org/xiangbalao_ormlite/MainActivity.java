@@ -1,7 +1,14 @@
 package org.xiangbalao_ormlite;
 
-import java.sql.SQLException;
-import java.util.List;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
+
+import com.j256.ormlite.dao.Dao;
 
 import org.xiangbalao_ormlite.bean.Article;
 import org.xiangbalao_ormlite.bean.Student;
@@ -11,17 +18,12 @@ import org.xiangbalao_ormlite.db.DatabaseHelper;
 import org.xiangbalao_ormlite.db.UserDao;
 import org.xiangbalao_ormlite.utils.L;
 
-import com.j256.ormlite.dao.Dao;
+import java.sql.SQLException;
+import java.util.List;
 
-
-import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.Toast;
-
+/**
+ *程序入口
+ */
 public class MainActivity extends Activity implements OnClickListener
 {
     private Button button1, button2, button3, button4, button5, button6, button7;
@@ -64,36 +66,36 @@ public class MainActivity extends Activity implements OnClickListener
         {
             case R.id.button1:
                 testAddArticle();
-                Toast.makeText(this, testAddArticle(), 0).show();
+                Toast.makeText(this, testAddArticle(), Toast.LENGTH_LONG).show();
                 break;
             
             case R.id.button2:
                 testGetArticleById();
                 
-                Toast.makeText(this, testGetArticleById(), 0).show();
+                Toast.makeText(this, testGetArticleById(), Toast.LENGTH_LONG).show();
                 break;
             case R.id.button3:
                 
                 testGetArticleWithUser();
                 
-                Toast.makeText(this, testGetArticleWithUser(), 0).show();
+                Toast.makeText(this, testGetArticleWithUser(), Toast.LENGTH_LONG).show();
                 
                 break;
             case R.id.button4:
                 testListArticlesByUserId();
-                Toast.makeText(this, testListArticlesByUserId(), 0).show();
+                Toast.makeText(this, testListArticlesByUserId(), Toast.LENGTH_LONG).show();
                 
                 break;
             case R.id.button5:
                 testGetUserById();
-                Toast.makeText(this, testGetUserById(), 0).show();
+                Toast.makeText(this, testGetUserById(), Toast.LENGTH_LONG).show();
                 
                 break;
             case R.id.button6:
                 try
                 {
                     testAddStudent();
-                    Toast.makeText(this, testAddStudent(), 0).show();
+                    Toast.makeText(this, testAddStudent(), Toast.LENGTH_LONG).show();
                     
                 }
                 catch (SQLException e)
